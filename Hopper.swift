@@ -20,7 +20,7 @@ class Hopper: SKSpriteNode {
             
             physicsBody?.isDynamic = true //indicates that we want this obj to be moved by physics engine (gravity, collision, etc.)
             physicsBody?.density = 8.0 //density is how heavity something is for its size
-            physicsBody?.allowsRotation = false //so that skater can tip over
+            physicsBody?.allowsRotation = false //so that astronaut does not tip over
             physicsBody?.angularDamping = 10.0 //angular damping is how much a physics body resists rotating (i.e. change if tips over too easily, etc.)
             
             physicsBody?.categoryBitMask = PhysicsCategory.hopper
