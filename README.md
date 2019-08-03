@@ -24,13 +24,16 @@
 
 # How it works in action!
 
-**Recordit**
+**Player loads the start screen and repeatedly taps the screen to move the astronaut**
 
 ![Recordit GIF](http://g.recordit.co/H3JTn9KLhv.gif)
+- The more rockets the player collects, the more points he/she will have
+- As the player collects more rockets, the speed of the astronaut and the value of each rocket will increase
 
-**ttystudio**
+**Once the player hits a spike ball, the game is over**
 
 ![Recordit GIF](http://g.recordit.co/CPDW3oj5FY.gif)
+- The highscore is displayed on the screen 
 
 ---
 
