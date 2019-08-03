@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="https://github.com/sallykim5/Spaced0ut/blob/master/space@3x.png?raw=true">
+<img src="https://github.com/sallykim5/Spaced0ut/blob/master/space@3x.png?raw=true" width="300" height="300" />
 </p>
 
 # Spaced Out
@@ -7,6 +7,8 @@
 > An iOS game created in the style of Flappy Bird. The player controls an astronaut whose goal is to dodge incoming spike balls and collect rockets for points.
 
 [![StartScreen](https://github.com/sallykim5/Spaced0ut/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202019-06-11%20at%2010.33.59.png)]()
+
+<img src="https://github.com/sallykim5/Spaced0ut/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202019-06-11%20at%2010.33.59.png" width="500" height="900" />
 
 - Most people will glance at your `README`, *maybe* star it, and leave
 - Ergo, people should understand instantly what your project is about based on your repo
