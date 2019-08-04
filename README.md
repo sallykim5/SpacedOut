@@ -118,7 +118,8 @@ let scrollAdjustment = CGFloat(elapsedTime / expectedElapsedTime) //i.e. if more
 let currentScrollAmount = scrollSpeed * scrollAdjustment //determines what scroll speed should be for this update using adjustment factor
         
  ```
- - By tracking the duration of the game, I can increase the speed of the game as time passes. The player also earns points for staying alive (but not as much as he or she would by collecting rockets).
+ - By tracking the duration of the game, I can increase the speed of the game as time passes. 
+ - The player also earns points for staying alive (but not as much as he or she would by collecting rockets).
 
 ---
 
