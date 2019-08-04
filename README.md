@@ -39,29 +39,57 @@
 
 ## Example Code
 
-```javascript
-// code away!
+```swift
+if let hopperTexture = texture { //texture is optional property of SKSpriteNode
+    physicsBody = SKPhysicsBody(texture: hopperTexture, size: size)
+    
+    physicsBody?.isDynamic = true //indicates that we want this obj to be moved by physics engine (gravity, collision, etc.)
+    physicsBody?.density = 8.0 //density is how heavity something is for its size
+    physicsBody?.allowsRotation = false //so that astronaut does not tip over
+    physicsBody?.angularDamping = 10.0 //angular damping is how much a physics body resists rotating (i.e. change if tips over too easily, etc.)
+            
+    physicsBody?.categoryBitMask = PhysicsCategory.hopper
+    physicsBody?.contactTestBitMask = PhysicsCategory.spike | PhysicsCategory.rocket //this tells SpriteKit that we want to know when the skater has contacted either of these types of objects
+}
 
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
 ```
+- This is the code that was written to create the physics body of the astronaut. I experimented many times with the density and angular damping of the astronaut because I wanted the player to interact with the astronaut and feel as though the astronaut was really in space.
 
+
+```swift
+hopper.physicsBody?.applyImpulse(CGVector(dx: 0.0, dy: 50.0)) //apply impulse force to hopper sprite's physics body
+```
+- This was written in the GameScene.swift to indicate how the astronaut would be impacted if the player tapped on the screen. 
+
+```javascript 
+if contact.bodyA.categoryBitMask == PhysicsCategory.hopper && contact.bodyB.categoryBitMask == PhysicsCategory.spike {
+    hopper.isOnGround = true
+    gameOver()
+}
+        
+else if contact.bodyA.categoryBitMask == PhysicsCategory.hopper && contact.bodyB.categoryBitMask == PhysicsCategory.rocket {
+            
+    if let rocket = contact.bodyB.node as? SKSpriteNode { //gives us reference to rocket spirte by downcasting node to an SKSpriteNode
+        removeRocket(rocket)
+        
+        //give the player 50 points for getting a rocket
+        score += 50
+        updateScoreLabelText()
+    }
+}
+```
+- A physics body was given to both the spike and the rocket. This code indicates what happens when the astronaut's physics body comes in contact with the rocket physics body or the spike physics body.
 ---
 
 ## FAQ
 
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
-
+- **How did I learn the skills to program this fun game?*
+    - I read "Coding iPhone Apps for Kids" by Gloria Winquist and Matt McCarthy and watched tutorials on YouTube!
 ---
 
 ## Support
 
 Reach out to me at one of the following places!
 
-- Linkedin at <a href="https://www.linkedin.com/in/sally-kim-17860367/">
+- Linkedin at <a href="www.linkedin.com/in/sallykim5">
 - Facebook at <a href="https://www.facebook.com/sally.kim425">
