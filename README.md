@@ -31,8 +31,8 @@
 **Player loads the start screen and repeatedly taps the screen to move the astronaut**
 
 ![Recordit GIF](http://g.recordit.co/H3JTn9KLhv.gif)
-- The more rockets the player collects, the more points he/she will have
-- As the player collects more rockets, the speed of the astronaut and the value of each rocket will increase
+- The more rockets the player collects and the longer the player survives, the more points he or she will have
+- As the player collects more rockets, the speed of the astronaut will increase
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -43,7 +43,7 @@
 
 ---
 
-## Example Code
+## How do the objects in the game interact?
 
 **Code #1**
 
@@ -76,7 +76,7 @@ hopper.physicsBody?.applyImpulse(CGVector(dx: 0.0, dy: 50.0)) //apply impulse fo
 
 **Code #3**
 
-```javascript 
+```swift 
 if contact.bodyA.categoryBitMask == PhysicsCategory.hopper && contact.bodyB.categoryBitMask == PhysicsCategory.spike {
     hopper.isOnGround = true
     gameOver()
@@ -94,6 +94,32 @@ else if contact.bodyA.categoryBitMask == PhysicsCategory.hopper && contact.bodyB
 }
 ```
 - A physics body was given to both the spike and the rocket. This code indicates what happens when the astronaut's physics body comes in contact with the rocket physics body or the spike physics body.
+
+---
+
+## How is the player challenged? 
+```swift
+//slowly increase scrollSpeed as game progresses
+scrollSpeed += 0.01
+        
+//determine elapsed time since last update call
+var elapsedTime: TimeInterval = 0.0 //TimeInterval (Double) tracks time intervals in seconds
+        
+if let lastTimeStamp = lastUpdateTime {
+    elapsedTime = currentTime - lastTimeStamp //how much time has passed since last update call
+}
+        
+lastUpdateTime = currentTime
+        
+let expectedElapsedTime: TimeInterval = 1.0 / 60.0 //about 1/60 of a sec should pass between each call to update(_:)
+        
+//here we calculate how far everything should move in this update
+let scrollAdjustment = CGFloat(elapsedTime / expectedElapsedTime) //i.e. if more time has passed than expected (> 1/60 of a sec), this factor will be greater than 1.0
+let currentScrollAmount = scrollSpeed * scrollAdjustment //determines what scroll speed should be for this update using adjustment factor
+        
+ ```
+ - The player is challenged by tracking the duration of the game and increasing the movement speed once a certain amount of time passes.
+
 ---
 
 ## FAQ
