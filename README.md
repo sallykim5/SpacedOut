@@ -39,6 +39,8 @@
 
 ## Example Code
 
+**Code #1**
+
 ```swift
 if let hopperTexture = texture { //texture is optional property of SKSpriteNode
     physicsBody = SKPhysicsBody(texture: hopperTexture, size: size)
@@ -55,11 +57,18 @@ if let hopperTexture = texture { //texture is optional property of SKSpriteNode
 ```
 - This is the code that was written to create the physics body of the astronaut. I experimented many times with the density and angular damping of the astronaut because I wanted the player to interact with the astronaut and feel as though the astronaut was really in space.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+**Code #2**
 
 ```swift
 hopper.physicsBody?.applyImpulse(CGVector(dx: 0.0, dy: 50.0)) //apply impulse force to hopper sprite's physics body
 ```
 - This was written in the GameScene.swift to indicate how the astronaut would be impacted if the player tapped on the screen. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+**Code #3**
 
 ```javascript 
 if contact.bodyA.categoryBitMask == PhysicsCategory.hopper && contact.bodyB.categoryBitMask == PhysicsCategory.spike {
