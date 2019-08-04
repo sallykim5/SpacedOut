@@ -9,13 +9,11 @@
 **This is what the start screen looks like**
 
 <img src="https://github.com/sallykim5/Spaced0ut/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202019-06-11%20at%2010.33.59.png" width="300" height="500" />
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **This is what the environment looks like**
 
 <img src="https://github.com/sallykim5/Spaced0ut/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202019-06-11%20at%2010.35.48.png" width="300" height="500" />
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **This is the "Game Over" screen that loads once the player hits a spike ball**
@@ -33,6 +31,7 @@
 ![Recordit GIF](http://g.recordit.co/H3JTn9KLhv.gif)
 - The more rockets the player collects, the more points he/she will have
 - As the player collects more rockets, the speed of the astronaut and the value of each rocket will increase
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **Once the player hits a spike ball, the game is over**
 
@@ -104,5 +103,5 @@ else if contact.bodyA.categoryBitMask == PhysicsCategory.hopper && contact.bodyB
 
 Reach out to me at one of the following places!
 
-- Linkedin at <a href="www.linkedin.com/in/sallykim5">
+- Linkedin at <a href="http://www.linkedin.com/in/sallykim5">
 - Facebook at <a href="https://www.facebook.com/sally.kim425">
