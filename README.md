@@ -124,7 +124,13 @@ let currentScrollAmount = scrollSpeed * scrollAdjustment //determines what scrol
 
 ## FAQ
 
-- **How did I learn the skills to program this fun game?*
+- **Who is the programmer behind all this?**
+<p align="center"> 
+<img src="https://github.com/sallykim5/personal/blob/master/profpic.png" width="300" height="300" />
+</p>
+    - Hello! My name is Sally, and I am a rising senior at Emory University. I have a passion for developing creative code and implementing it in real-life applications. I take my passion and have fun with it.
+
+- **How did I learn the skills to program this fun game?**
     - I read "Coding iPhone Apps for Kids" by Gloria Winquist and Matt McCarthy and watched tutorials on YouTube!
 ---
 
