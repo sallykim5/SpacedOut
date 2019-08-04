@@ -125,11 +125,11 @@ let currentScrollAmount = scrollSpeed * scrollAdjustment //determines what scrol
 ## FAQ
 
 - **Who is the programmer behind all this?**
+    - Hello! My name is Sally, and I am a rising senior at Emory University. I have a passion for developing creative code and implementing it in real-life applications. I take my passion and have fun with it.
 
 <p align="center"> 
 <img src="https://github.com/sallykim5/personal/blob/master/profpic.png" width="200" height="150" />
 </p>
-    - Hello! My name is Sally, and I am a rising senior at Emory University. I have a passion for developing creative code and implementing it in real-life applications. I take my passion and have fun with it.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
