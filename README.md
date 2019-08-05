@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="https://github.com/sallykim5/personal/blob/master/spike%403x.png" width="300" height="300" />
+<img src="https://github.com/sallykim5/personal/blob/master/space%403x.png" width="300" height="300" />
 </p>
 
 # Spaced Out
