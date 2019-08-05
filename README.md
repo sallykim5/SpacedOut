@@ -6,7 +6,7 @@
 
 > An iOS game created in the style of Flappy Bird. The player controls an astronaut whose goal is to dodge incoming spike balls and collect rockets for points.
 
-> Disclaimer: I named the astronaut object "hopper" because originally, my game involved a "hopper" who hopped to collect rewards in the style of Flappy Bird + Super Mario World. I decided that it would be cooler to use an astronaut who moves in space, so I changed the assets without changing the names in the script.
+> Disclaimer: The name of the astronaut object is "hopper" because originally, my game involved a "hopper" who hopped to collect tokens (Flappy Bird + Super Mario World = Spaced Out). In the end, I decided that it would be cooler to use an astronaut in space, so I changed the assets without changing the names in the script.
 
 **This is what the start screen looks like**
 
