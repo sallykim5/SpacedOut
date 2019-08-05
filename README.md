@@ -6,7 +6,7 @@
 
 > An iOS game created in the style of Flappy Bird. The player controls an astronaut whose goal is to dodge incoming spike balls and collect rockets for points.
 
-> Disclaimer: The name of the astronaut object is "hopper" because originally, my game involved a "hopper" who hopped to collect tokens (Flappy Bird + Super Mario World = Spaced Out). In the end, I decided that it would be cooler to use an astronaut in space, so I changed the assets without changing the names in the script.
+> Disclaimer: The name of the astronaut object is "hopper" because originally, my game involved a "hopper" who hopped to collect tokens, similar to if you combined 'Flappy Bird' with 'Super Mario World'. In the end, I decided that it would be cooler to use an astronaut in space, so I changed the assets without changing the names in the script.
 
 **This is what the start screen looks like**
 
@@ -95,7 +95,7 @@ else if contact.bodyA.categoryBitMask == PhysicsCategory.hopper && contact.bodyB
     }
 }
 ```
-- A physics body was given to both the spike and the rocket. This code indicates what happens when the astronaut's physics body comes in contact with the rocket physics body or the spike physics body.
+- A physics body was given to both the spike and the rocket. This code indicates what happens when the astronaut's physics body comes in contact with the rocket's physics body or the spike's physics body.
 
 ---
 
