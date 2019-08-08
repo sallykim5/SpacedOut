@@ -131,7 +131,7 @@ let currentScrollAmount = scrollSpeed * scrollAdjustment //determines what scrol
     - Hello! My name is Sally, and I am a rising senior at Emory University. I have a passion for developing creative code and implementing it in real-life applications. I take my passion and have fun with it.
 
 <p align="center"> 
-<img src="./imgs/profpic.png" width="200" height="150" />
+<img src="./imgs/profpic.jpg" width="200" height="150" />
 </p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
