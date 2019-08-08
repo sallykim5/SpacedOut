@@ -131,10 +131,8 @@ let currentScrollAmount = scrollSpeed * scrollAdjustment //determines what scrol
     - Hello! My name is Sally, and I am a rising senior at Emory University. I have a passion for developing creative code and implementing it in real-life applications. I take my passion and have fun with it.
 
 <p align="center"> 
-<img src="./imgs/profpic.jpg" width="200" height="150" />
+<img src="./imgs/profpic.jpg" width="175" height="175" />
 </p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 - **How did I learn the skills to program this fun game?**
     - I read "Coding iPhone Apps for Kids" by Gloria Winquist and Matt McCarthy and watched tutorials on YouTube!
