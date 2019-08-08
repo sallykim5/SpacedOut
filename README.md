@@ -8,19 +8,19 @@
 
 **This is what the start screen looks like**
 
-<img src="https://github.com/sallykim5/personal/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202019-06-11%20at%2010.33.59.png" width="300" height="500" />
+<img src="./imgs/img1.png" width="300" height="500" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **This is what the environment looks like**
 
-<img src="https://github.com/sallykim5/personal/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202019-06-11%20at%2010.35.48.png" width="300" height="500" />
+<img src="./imgs/img2.png" width="300" height="500" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **This is the "Game Over" screen that loads once the player hits a spike ball**
 
-<img src="https://github.com/sallykim5/personal/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202019-06-11%20at%2021.06.45.png" width="300" height="500" />
+<img src="./imgs/img4.png" width="300" height="500" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -131,7 +131,7 @@ let currentScrollAmount = scrollSpeed * scrollAdjustment //determines what scrol
     - Hello! My name is Sally, and I am a rising senior at Emory University. I have a passion for developing creative code and implementing it in real-life applications. I take my passion and have fun with it.
 
 <p align="center"> 
-<img src="https://github.com/sallykim5/personal/blob/master/profpic.png" width="200" height="150" />
+<img src="./imgs/profpic.png" width="200" height="150" />
 </p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
